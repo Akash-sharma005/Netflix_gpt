@@ -17,6 +17,15 @@
 - Implemented SignOut feature
 - Update Profile 
 - Fetch from TMDB Movies
+- Register for TMDB api & create an app and & get access token
+- Get Data from TMDB now playing movie list API
+- Custom Hook for Now playing movies 
+- Update store with movies data
+- Planning for MainController and secondaryContainer
+- Fetch data for trailer video
+- Update store with trailer video data
+- Embedded them Youtube video and make it autoplay and mute
+- Tailwind classes to make Main container it look awesome
 
 ...
 # Features
