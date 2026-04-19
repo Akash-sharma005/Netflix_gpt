@@ -27,6 +27,7 @@
 - Embedded them Youtube video and make it autoplay and mute
 - Tailwind classes to make Main container it look awesome
 - Build Secondary component
+- GPT Search Feature
 
 ...
 # Features

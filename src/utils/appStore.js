@@ -1,6 +1,8 @@
-import { configureStore } from "@reduxjs/toolkit"
-import userReducer from "./userSlice"
-import moviesReducer from "./movieSlice"
+import { configureStore } from "@reduxjs/toolkit";
+import userReducer from "./userSlice";
+import moviesReducer from "./movieSlice";
+import gptReducer from "./gptSlice"
+import configReducer from "./configSlice"
 
 const appStore = configureStore(
     //Fetch Data from TMDB API and update store 
@@ -8,7 +10,8 @@ const appStore = configureStore(
         reducer: {
             user: userReducer,
             movies: moviesReducer,
-            // trailer:trailerReducer
+            gpt:gptReducer,
+            config:configReducer
         },
         devTools: true,
     }
